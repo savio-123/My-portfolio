@@ -7,7 +7,7 @@
   import { styles } from '../styles'
 import { Tilt } from 'react-tilt'
 
-  const InterestCard = ({index, interest,title,description,icon}) => {
+  const InterestCard = ({index,title,description,icon}) => {
     return (
       <motion.div
         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
