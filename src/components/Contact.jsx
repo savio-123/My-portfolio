@@ -58,7 +58,8 @@ const Contact = () => {
     <>
       <div className = 'flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row'>
         <motion.div variants={slideIn("left","tween",0.2,1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
+        className='flex-[0.5] bg-black-100 p-8 rounded-2xl max-w-md w-full'
+        >
           <p className={styles.sectionSubText}>Get In Touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <form ref={formRef} onSubmit={handleSubmit}
